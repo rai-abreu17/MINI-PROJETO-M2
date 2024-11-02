@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    background-color: #FFF;
+    font-family: Poppins, sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+.sidebar-left {
+    width: 10.55rem;
+    height: 100vh;
+    border-radius: 0.25rem 0.25rem 5.9375rem 0rem;
+    background: #6BD0FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px; 
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px; 
+}
+
+.icon-top, .icon-bottom {
+    width: 5.4375rem;
+    height: 5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.icon-top {
+    background-image: url('https://img.icons8.com/?size=100&id=LkA4MJGSsVsY&format=png&color=000000');
+}
+
+.icon-bottom {
+    width: 5.375rem;
+    height: 5.375rem;
+    background-image: url('https://img.icons8.com/?size=100&id=gXs91fCVAiJr&format=png&color=000000');
+}
+
+.top-border {
+    width: 100%;
+    height: 8.5rem;
+    border-radius: 0.25rem 0.25rem 5.9375rem 0rem;
+    background: #6BD0FF;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
