@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro para a tela flutuante */
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .overlay {
@@ -21,7 +21,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro para a tela flutuante */
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .confirm-container {
