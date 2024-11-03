@@ -3,22 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receber Chave</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Empréstimo</title>
+    <link rel="stylesheet" href="style_receber.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="receber-container">
-        <h2>Receber Chave</h2>
-        <input type="text" class="input-field" placeholder="Número da Chave">
-        <input type="text" class="input-field" placeholder="Prontuário">
-        <input type="text" class="input-field" placeholder="Data de Nascimento">
-        <input type="text" class="input-field" placeholder="Nome Completo">
-        <input type="text" class="input-field" placeholder="Nome do Paciente">
-        <input type="text" class="input-field" placeholder="Leito do Paciente">
-        <button class="confirm-button">Confirmar Entrega</button>
+    <div class="overlay">
+        <div class="container-maior">
+            <label for="numero-chave">Nº da chave</label>
+            <input type="number" id="numero-chave" class="input-numero-chave">
+
+            <h3>Dados do Acompanhante</h3>
+
+            <div class="input-group">
+                <div class="input-wrapper">
+                    <label for="prontuario">Prontuário</label>
+                    <input type="text" id="prontuario" class="input-prontuario">
+                </div>
+                <div class="input-wrapper">
+                    <label for="data-nascimento">Data de Nascimento</label>
+                    <input type="date" id="data-nascimento" class="input-data-nascimento">
+                </div>
+            </div>
+
+            <label for="nome-completo">Nome Completo</label>
+            <input type="text" id="nome-completo" class="input-nome-completo">
+
+            <div class="input-group">
+                <div class="input-wrapper">
+                    <label for="nome-paciente">Nome Completo do Paciente</label>
+                    <input type="text" id="nome-paciente" class="input-nome-paciente">
+                </div>
+                <div class="input-wrapper">
+                    <label for="leito-paciente">Leito do Paciente</label>
+                    <input type="text" id="leito-paciente" class="input-leito-paciente">
+                </div>
+            </div>
+
+            <button class="confirm-button">CONFIRMAR ENTREGA</button>
+        </div>
     </div>
 </body>
 </html>
